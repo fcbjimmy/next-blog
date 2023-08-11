@@ -1,9 +1,15 @@
 import Image from "next/image";
-
+import Profile from "../app/components/Profile";
 export default function Home() {
   return (
-    <div>
-      <h1>hello</h1>
+    <div className="mx-auto">
+      <Profile />
+      <p className="mt-12 mb-12 text-3xl text-center dark:text-white">
+        Hello and Welcome 👋&nbsp;
+        <span className="">
+          I am <span className="font-bold">Jim 🤙🏻</span>
+        </span>
+      </p>
     </div>
   );
 }
