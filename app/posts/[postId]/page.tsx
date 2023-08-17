@@ -43,7 +43,7 @@ export default async function page({ params: { postId } }: Props) {
 
   const tags = meta.tags.map((tag, id) => (
     <Link
-      href={`/tags/!${tag}`}
+      href={`/tags/${tag}`}
       key={id}
       className=" no-underline hover:text-sky-300"
     >
